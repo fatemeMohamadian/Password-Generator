@@ -3,7 +3,7 @@
 👩‍💻😎 [Watch Demo](https://fatememohamadian.github.io/Password-Generator/)
 
 
-![1](https://github.com/fatemeMohamadian/Password-Generator/assets/155579918/8302ae72-1e8b-4756-8e4c-742c82473f7c)
+![1](https://github.com/fatemeMohamadian/Password-Generator/assets/155579918/45953a3e-af27-42a4-81f6-8e6e01c29f83)
 
                                                           😎😉 
                                                  
