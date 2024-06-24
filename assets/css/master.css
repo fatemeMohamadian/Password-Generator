@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: title;
+    src: url('../font/RobotoSlab-Regular.ttf');
+}
+@font-face {
+    font-family: text2;
+    src: url('../font/JosefinSlab-BoldItalic.ttf');
+}

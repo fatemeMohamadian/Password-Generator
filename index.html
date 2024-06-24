@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="assets/icon/fontello-4bda2aec/css/fontello.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-gray-950">
+    <main class="w-full 2xl:container mx-auto flex flex-wrap justify-center items-center">
+        <section id="slide1" class="w-full text-center flex flex-wrap justify-center items-center mt-[50px]">
+            <h1 class="text-white font-project w-full text-3xl font-bold my-[20px]">Create Your Strong Password and Save
+                it!</h1>
+        </section>
+
+        <section id="slide2" class="w-full lg:w-[85%] flex text-center justify-center items-center flex-wrap mt-[80px]">
+            <div class="box1 *:my-[30px] lg:w-[50%] my-[20px] w-full flex justify-evenly items-center flex-wrap">
+                <label for="" class="text-white text-xl font-project">Enter The Password Length:</label><input
+                    id="inplen"
+                    class="outline-none w-[100px] lg:w-[150px] text-2xl font-project border-none bg-slate-100 bg-opacity-25 shadow-shadow focus:bg-slate-100 mt-[5px] h-[40px]"
+                    type="text">
+                <div class="allbox mt-[20px] w-[90%]  flex justify-between items-center flex-wrap">
+                    <div class="firstbox my-[20] flex flex-wrap justify-between items-center w-full lg:w-[45%]">
+                        <h3 class="font-text2 text-white flex flex-wrap justify-center items-center text-xl">
+                            LowerCase(a-z)</h3><span
+                            class="sp1 w-[55px] h-[30px] rounded-[15px] mt-[5px] border-[1px] border-red-800 bg-red-800 relative overflow-hidden flex justify-center items-center"><span
+                                class="sp2 w-[27px] h-[28px] rounded-[20px] cursor-pointer bg-orange-500 absolute top-0 left-0 transition-all duration-1000"></span></span>
+                    </div>
+                    <div class="firstbox flex my-[20px] flex-wrap justify-between items-center w-full lg:w-[45%]">
+                        <h3 class="font-text2 text-white flex flex-wrap items-center justify-center text-xl">Number(0-9)
+                        </h3><span
+                            class="sp1 w-[55px] h-[30px] rounded-[15px] overflow-hidden  mt-[5px] border-[1px] border-red-800 bg-red-800 relative flex justify-center items-center"><span
+                                class="sp2 w-[27px] h-[28px] rounded-[20px] cursor-pointer bg-orange-500 absolute top-0 left-0 transition-all duration-1000"></span></span>
+                    </div>
+                </div>
+                <!-- /////////////////////////////////////////////////////////////////// -->
+                <div class="allbox mt-[20px] w-[90%] flex justify-between items-center flex-wrap">
+                    <div class="firstbox my-[20px] flex flex-wrap justify-between items-center w-full lg:w-[45%]">
+                        <h3 class="font-text2 text-white flex flex-wrap justify-center items-center text-xl">
+                            UpperCase(A-Z)</h3><span
+                            class="sp1 w-[55px] h-[30px] rounded-[15px] mt-[5px] border-[1px] border-red-800 bg-red-800 overflow-hidden relative flex justify-center items-center"><span
+                                class="sp2 w-[27px] h-[28px] rounded-[20px] cursor-pointer bg-orange-500 absolute top-0 left-0 transition-all duration-1000"></span></span>
+                    </div>
+                    <div class="firstbox my-[20px] flex flex-wrap justify-between items-center w-full lg:w-[45%]">
+                        <h3 class="font-text2 text-white flex flex-wrap items-center justify-center text-xl">
+                            Symbol(&$#!*%)</h3><span
+                            class="sp1 w-[55px] h-[30px] rounded-[15px] overflow-hidden  mt-[5px] border-[1px] border-red-800 bg-red-800 relative flex justify-center items-center"><span
+                                class="sp2 w-[27px] h-[28px] rounded-[20px] cursor-pointer bg-orange-500 absolute top-0 left-0 transition-all duration-1000"></span></span>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="box2 lg:w-[40%] shadow-shadow2 bg-zinc-950 rounded-xl w-full flex flex-wrap justify-center items-center">
+                <h2
+                    class="font-project tracking-widest flex justify-center items-center w-full my-[30px] font-semibold text-2xl text-orange-600">
+                    Your Password Is :</h2>
+                <div
+                    class="finalinp relative my-[60px] *:my-[10px] flex lg:w-[90%] w-full flex-wrap justify-evenly items-center">
+                    <span
+                        class="icon cursor-pointer flex justify-center top-0 left-0 items-center absolute text-orange-200 text-2xl"><i
+                            class="icon-eye"></i></span><span
+                        class="icon text-2xl top-0 left-0 hidden  justify-center items-center absolute text-orange-200  cursor-pointer"><i
+                            class="icon-eye-off"></i></span><input id="pass" type="text"
+                        class="h-[40px] w-[220px] font-project text-2xl">
+                    <button id="btn"
+                        class="px-[5px] cursor-pointer py-[5px] rounded-[10px] bg-sky-600 text-white font-text2">Copy</button>
+                </div>
+                <div class="w-full my-[15px] flex flex-wrap text-center justify-center items-center">
+                    <p class="txt font-bold text-white font-text2 text-2xl px-[20px] rounded-xl py-[10px]">Is Secure?
+                        Try It!</p>
+                </div>
+            </div>
+        </section>
+        <div class="group lg:w-[15%] w-[30%] z-50 flex cursor-pointer justify-end absolute right-0 top-0">
+            <img class="lg:w-[180px] lg:h-[180px] w-[220px] h-[180px] rounded-[50%]" src="assets/img/44.jpg" alt="">
+            <ul
+                class="group-hover:visible group-hover:opacity-[1] absolute top-0 lg:right-[80%] right-[110%] list-none *:text-white rotate-[18deg] translate-y-[-13px] hover:*:text-yellow-400 transition-all duration-[.4s] invisible opacity-0">
+                <li class="mb-[15px] translate-x-[10px]"><a
+                        href="https://www.instagram.com/fateme_mohamadiian.fed?igsh=YzVkODRmOTdmMw=="><i
+                            class="icon-instagram text-[30px]"></i></a></li>
+                <li class="mb-[15px]"><a href="http://www.linkedin.com/in/fateme-mohamadian-dev0824"><i
+                            class="icon-linkedin-2 text-[30px]"></i></a></li>
+                <li class="mb-[15px] translate-x-[20px]"><a href="https://github.com/fatemeMohamadian"><i
+                            class=" icon-github-squared text-[30px]"></i></a></li>
+            </ul>
+        </div>
+    </main>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
